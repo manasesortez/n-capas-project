@@ -33,5 +33,11 @@ namespace capaNegocio
             objDato.EliminarEstudiante(Convert.ToInt32(id));
         }
 
+        public void ActualizarEstudiante(int id, string nombre, int edad, string DUI, string carnet, string carrera, string direccion)
+        {
+            objDato.ActualizarEstudiante(Convert.ToInt32(id), nombre, Convert.ToInt32(edad), DUI, carnet, carrera, direccion);
+
+        }
+
     }
 }

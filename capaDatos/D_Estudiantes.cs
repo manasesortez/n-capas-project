@@ -52,6 +52,22 @@ namespace capaDatos
 
         }
 
+
+        public void ActualizarEstudiante(int id, string nombre, int edad, string DUI, string carnet, string carrera, string direccion)
+        {
+            SqlCommand cmd = new SqlCommand("ActualizarEstudiante", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@nombre", nombre);
+            cmd.Parameters.AddWithValue("@edad", edad);
+            cmd.Parameters.AddWithValue("@identidad", DUI);
+            cmd.Parameters.AddWithValue("@carnet", carnet);
+            cmd.Parameters.AddWithValue("@carrera", carrera);
+            cmd.Parameters.AddWithValue("@direccion", direccion);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
     }
 
 }
