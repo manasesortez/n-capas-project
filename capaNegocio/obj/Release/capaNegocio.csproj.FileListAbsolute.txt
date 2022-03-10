@@ -1,0 +1,11 @@
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\bin\Release\capaNegocio.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\bin\Release\capaNegocio.pdb
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\bin\Release\capaDatos.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\bin\Release\capaEntidad.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\bin\Release\capaDatos.pdb
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\bin\Release\capaEntidad.pdb
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\obj\Release\capaNegocio.csproj.AssemblyReference.cache
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\obj\Release\capaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\obj\Release\capaNegocio.csproj.CopyComplete
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\obj\Release\capaNegocio.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaNegocio\obj\Release\capaNegocio.pdb

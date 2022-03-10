@@ -1,0 +1,6 @@
+C:\Users\manas\source\repos\NCapas\Solution1\capaEntidad\bin\Release\capaEntidad.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaEntidad\bin\Release\capaEntidad.pdb
+C:\Users\manas\source\repos\NCapas\Solution1\capaEntidad\obj\Release\capaEntidad.csproj.AssemblyReference.cache
+C:\Users\manas\source\repos\NCapas\Solution1\capaEntidad\obj\Release\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\manas\source\repos\NCapas\Solution1\capaEntidad\obj\Release\capaEntidad.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaEntidad\obj\Release\capaEntidad.pdb

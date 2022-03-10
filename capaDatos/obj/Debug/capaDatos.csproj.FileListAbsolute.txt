@@ -1,0 +1,9 @@
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\bin\Debug\capaEntidad.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\bin\Debug\capaEntidad.pdb
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\obj\Debug\capaDatos.csproj.AssemblyReference.cache
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\obj\Debug\capaDatos.csproj.CoreCompileInputs.cache
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\obj\Debug\capaDatos.csproj.CopyComplete
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\manas\source\repos\NCapas\Solution1\capaDatos\obj\Debug\capaDatos.pdb
