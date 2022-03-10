@@ -51,5 +51,26 @@ namespace capaPresentacion
               }
 
         }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                objN_est.EliminarEstudiante(
+                    txtElimID.Text
+                );
+
+
+                Response.Redirect("RegistroEstudiantes.aspx");
+
+
+            }
+            catch (Exception ex)
+            {
+
+
+                throw;
+            }
+        }
     }
 }

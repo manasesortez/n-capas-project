@@ -40,6 +40,18 @@ namespace capaDatos
 
         }
 
+        public void EliminarEstudiante(int id) 
+        {
+            SqlCommand cmd = new SqlCommand("eliminarEstudiante", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@id", id);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+
+
+        }
+
     }
 
 }

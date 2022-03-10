@@ -27,5 +27,11 @@ namespace capaNegocio
         {
             objDato.insertarEstudiante(nombre, Convert.ToInt32(edad), DUI, carnet, carrera, direccion);
         }
+        
+        public void EliminarEstudiante(String id)
+        {
+            objDato.EliminarEstudiante(Convert.ToInt32(id));
+        }
+
     }
 }
