@@ -23,6 +23,23 @@ namespace capaDatos
             da.Fill(dt);
             return dt;
         }
+
+        public void insertarEstudiante(string nombre, int edad, string DUI, string carnet, string carrera, string direccion)
+        {
+            SqlCommand cmd = new SqlCommand("AgregarEstudiante", conn);
+            cmd.CommandType =  CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@nombre", nombre);
+            cmd.Parameters.AddWithValue("@edad", edad);
+            cmd.Parameters.AddWithValue("@identidad", DUI);
+            cmd.Parameters.AddWithValue("@carnet", carnet);
+            cmd.Parameters.AddWithValue("@carrera", carrera);
+            cmd.Parameters.AddWithValue("@direccion", direccion);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+
+        }
+
     }
 
 }

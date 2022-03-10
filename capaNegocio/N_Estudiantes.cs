@@ -17,5 +17,15 @@ namespace capaNegocio
         {
             return objDato.D_Listado();
         }
+
+        public void insertarEstudiante(string nombre, int edad, string DUI, string carnet, string carrera, string direccion)
+        {
+            NewMethod(nombre, edad, DUI, carnet, carrera, direccion);
+        }
+
+        private void NewMethod(string nombre, int edad, string DUI, string carnet, string carrera, string direccion)
+        {
+            objDato.insertarEstudiante(nombre, Convert.ToInt32(edad), DUI, carnet, carrera, direccion);
+        }
     }
 }
